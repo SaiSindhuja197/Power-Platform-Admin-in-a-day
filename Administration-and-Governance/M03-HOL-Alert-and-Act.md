@@ -123,11 +123,11 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Select **My flows (1)**, select **+ New flow (2)** and select **Automated cloud flow (3)**.
 
-   ![](images/M03/pp62.png)
+   ![](images/M03/E2T2S3.png)
 
 1. Type **New Environment Approval (1)** in the Flow name field. In the **Choose your flow’s trigger** section, search for **When a new response is submitted (2)** then select **When a new response is submitted (3)**, and select **Create (4)**.
 
-   ![](images/M03/pp63.png)
+   ![](images/M03/E2T2S4.png)
 
 1. Select the **When a new response is submitted** box.
 
@@ -147,11 +147,11 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Select **New Environment Approval Request (1)** for **Form Id** and click on the **dynamic content (2)** symbol to select **Response Id**. 
 
-    ![](images/M03/pp68.png)
+    ![](images/M03/E2T2S9.png)
 
 1. Select the **Response Id** from the Dynamic content pane.    
 
-    ![](images/M03/M3-EX2-T2-S10.png)
+    ![](images/M03/E2T2S10.png)
 
 1. Select **+ Add action**.
 
@@ -159,27 +159,25 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Search for **Approvals (1)** and select **Start and Wait for an Approval (2)**.
 
-    ![](images/M03/pp70.png)
+    ![](images/M03/E2T2S12.png)
 
 1. Click on **Create new**.
 
 1. Select **Approve/Reject - First to Respond** for Approval type.
 
-    ![](images/M03/pp71.png)
+    ![](images/M03/E2T2S14.png)
 
-1. Enter **Environment Approval Requested (1)** for Title.
+1. Enter **Environment Approval Requested (1)** for Title field.
 
-   - Select the user you are logged in as for **Assigned to** by typing the name into the field and selecting the correct dropdown item **(2)**
+1. In the **Assigned to (2)** field, select the user you are logged in as for by typing the name in the field or by selecting the correct dropdown item.
 
-   - Type **New Environment was requested by:** in the **Details** field **(3)**
+1. In the **Details (3)** field , type **New Environment was requested by:** and click the **Dynamic content symbol (4)**. Then select **Responders Email** from the Dynamic content pane.
 
-   - Select the Dynamic content symbol to select the Responder email **(4)**
+     ![](images/M03/E2T2S17.png)   
 
-     ![](images/M03/pp72.png)   
+1. Then select **Responders' Email** from the Dynamic content pane.
 
-   - Select **Responders Email** from the Dynamic content pane.
-
-     ![](images/M03/M3-EX2-T2-S17.png)
+     ![](images/M03/E2T2S18.png)
 
 1. Hit the enter key and type **Environment Name:** and select **Environment Name** from the Dynamic content pane.
 
@@ -207,11 +205,11 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Select the Choose a value field and select **Outcome**.
 
-    ![](images/M03/pp76.png)
+    ![](images/M03/E2T2S25.png)
 
 1. Enter **is equals (1)** to for condition, enter **Approve (2)** for value.
 
-    ![](images/M03/pp77.png)
+    ![](images/M03/E2T2S26.png)
 
 1. Select **Add an action** in the **True**  branch.
 
@@ -219,11 +217,11 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Search for **Power Platform for admins** and under **Power Platform for admins** section select **See more (2)**.
 
-    ![](images/M03/ppt27.png)
+    ![](images/M03/E2T2S28.png)
 
 1. Select **Create Environment**.
 
-    ![](images/M03/ppt28.png)
+    ![](images/M03/E2T2S29.png)
 
 1. Click on **Sign in**. Sign in with your lab credentials.
 
@@ -231,7 +229,7 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Select **United States (1)** for the **location** and select the dynamic content symbol on the **Display Name** field **(2)**.
 
-    ![](images/M03/pp82.png)
+    ![](images/M03/E2T2S31.png)
 
     >**Note:** Location determines the region for the environment, in a real process you might allow this to be auto-determined by the user location or something the requester provides.
 
